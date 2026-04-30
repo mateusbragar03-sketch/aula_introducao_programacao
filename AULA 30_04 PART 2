@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main (void) {
+	char conceito;
+	printf("digite o conceito do aluno: ");
+	scanf(" %c, &conceito");
+	switch (conceito) {
+		case 'A':
+			printf("excelente.\n");
+			break;
+		case 'B':
+		    printf("bom.\n");
+		    break;
+		case 'C':
+		    printf("regular .\n");
+	        break; 
+		case 'D':
+		    printf("insuficiente.\n");
+			break;
+		defaulf:
+		    printf("conceitoinvalido.\n");
+				 			
+	}
+	return 0;
+}
